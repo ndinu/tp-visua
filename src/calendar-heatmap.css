@@ -1,0 +1,63 @@
+text.month-name,
+text.calendar-heatmap-legend-text,
+text.day-initial {
+  font-size: 10px;
+  fill: inherit;
+  font-family: Helvetica, arial, 'Open Sans', sans-serif;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+rect.day-cell:hover {
+  stroke: #555555;
+  stroke-width: 1px;
+}
+
+rect.image-cell:hover{
+  stroke: #FFFFFF;
+}
+
+.day-cell-tooltip {
+  position: absolute;
+  z-index: 9999;
+  padding: 5px 9px;
+  color: #bbbbbb;
+  font-size: 12px;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 3px;
+  text-align: center;
+}
+.day-cell-tooltip > span {
+  font-family: Helvetica, arial, 'Open Sans', sans-serif
+}
+.calendar-heatmap {
+  margin-top: 0;
+  margin-left: 0;
+  box-sizing: initial;
+}
+
+.year{
+  font-weight: 900;
+  font-size: 52px;
+}
+
+.month{
+  font-weight: 800 ;
+  font-size: 32px;
+}
+
+.day{
+  font-weight: 300 ;
+  font-size: 24px;
+}
+
+#display-image {
+  position: fixed;
+  bottom:5;
+  right: 5;
+  stroke: black;
+  max-width:830px;
+  max-height:855px;
+  width: auto;
+  height: auto;
+}
